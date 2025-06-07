@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+langgraph
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+chromadb
+psycopg2-binary
+pgvector
+python-dotenv
+axios
+transformers
+torch
