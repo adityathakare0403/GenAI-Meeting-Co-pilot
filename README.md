@@ -81,13 +81,13 @@ This project implements a GenAI-powered meeting co-pilot using **Speech-to-Text 
 
 6. **Set Hugging Face API Token**
 
-1. Inside the `backend` folder, create a `.env` file with the following content:
+   Inside the `backend` folder, create a `.env` file with the following content:
    ```env
    HUGGINGFACEHUB_API_TOKEN=your_token_here
    DATABASE_URL=postgresql://localhost:5432/meeting_copilot
    ```
 
-2. Get a free Hugging Face API token from [your Hugging Face account settings](https://huggingface.co/settings/tokens) and replace `your_token_here` with the actual token.
+  Get a free Hugging Face API token from [your Hugging Face account settings](https://huggingface.co/settings/tokens) and replace `your_token_here` with the actual token.
 
 7. **Run the script to load sample data**:  
    ```bash
