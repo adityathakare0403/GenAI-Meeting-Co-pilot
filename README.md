@@ -79,11 +79,15 @@ This project implements a GenAI-powered meeting co-pilot using **Speech-to-Text 
    psql -d meeting_copilot -c "CREATE EXTENSION vector;"  
    ```
 
-6. **Set Hugging Face API token**:  
-   - Create a .env file inside backend folder:
-     HUGGINGFACEHUB_API_TOKEN=your_token
-     DATABASE_URL=postgresql://localhost:5432/meeting_copilot  
-   - Get a free Hugging Face API token from https://huggingface.co/settings/tokens and add it to the `.env` file.
+6. **Set Hugging Face API Token**
+
+1. Inside the `backend` folder, create a `.env` file with the following content:
+   ```env
+   HUGGINGFACEHUB_API_TOKEN=your_token_here
+   DATABASE_URL=postgresql://localhost:5432/meeting_copilot
+   ```
+
+2. Get a free Hugging Face API token from [your Hugging Face account settings](https://huggingface.co/settings/tokens) and replace `your_token_here` with the actual token.
 
 7. **Run the script to load sample data**:  
    ```bash
