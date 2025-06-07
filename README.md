@@ -127,3 +127,13 @@ This project implements a GenAI-powered meeting co-pilot using **Speech-to-Text 
 
 - The project was developed in one week to meet the requirements, demonstrating rapid learning and implementation of GenAI concepts.
 - The system aligns with the JD’s requirements for a real-time, context-aware AI meeting co-pilot.
+
+---
+
+## 🖼️ UI Demo
+
+**1. Audio Request:**  
+![Audio Request Demo](./audio_request.png)
+
+**2. Vague Text Request:**  
+![Text Request Demo](./text_request.png)
